@@ -18,3 +18,7 @@ puts dinner("vegan_tacos")
 puts breakfast
 puts lunch
 puts dinner
+
+def snacks(food = "Cheetos")
+  "Any time, is the right time for #{food}!"
+end 
